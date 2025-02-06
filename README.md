@@ -16,7 +16,10 @@ Your testing should use [Cypress](https://docs.cypress.io/guides/overview/why-cy
 
 ```bash
 npm run test
+npx cypress run --component (Run Component Tests)
+npx cypress run (Run End-to-End Tests)
 ```
+
 
 It's recommended that you start with a directory structure that looks like the following example:
 
@@ -38,6 +41,10 @@ It's recommended that you start with a directory structure that looks like the f
 ├── tsconfig.json
 └── README.md              // App description, link to video, setup and usage instructions           
 ```
+
+## Key Considerations
+- Adjust Selectors: Make sure to replace placeholders like `.question-text` with the actual CSS selectors or `data-testid` attributes for better stability in tests.
+- Handle Asynchronous Operations: If your quiz has asynchronous operations (e.g., API calls), use commands like `cy.wait()` or `cy.intercept()` to handle them effectively.
 
 ## User Story
 
