@@ -7,5 +7,69 @@
       { "text": "Not Quite", "isCorrect": false },
       { "text": "Not Close", "isCorrect": false }
     ]
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "answers": [
+      { "text": "To refer to the current object", "isCorrect": true },
+      { "text": "To declare a variable", "isCorrect": false },
+      { "text": "To call a function", "isCorrect": false },
+      { "text": "To define a class", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which method removes the first element from an array?",
+    "answers": [
+      { "text": "pop()", "isCorrect": false },
+      { "text": "push()", "isCorrect": false },
+      { "text": "shift()", "isCorrect": true },
+      { "text": "unshift()", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you check if a variable is undefined in JavaScript?",
+    "answers": [
+      { "text": "if (variable === undefined)", "isCorrect": true },
+      { "text": "if (variable == null)", "isCorrect": true }, 
+      { "text": "if (!variable)", "isCorrect": true }, 
+      { "text": "All of the above", "isCorrect": true } 
+    ]
+  },
+  {
+    "question": "What is the output of the following code snippet?",
+    "code": "console.log(2 + '2');",
+    "answers": [
+      { "text": "4", "isCorrect": false },
+      { "text": "22", "isCorrect": true },
+      { "text": "Error", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "How do you iterate over an array in JavaScript?",
+    "answers": [
+      { "text": "for...of loop", "isCorrect": true },
+      { "text": "forEach() method", "isCorrect": true },
+      { "text": "Both a) and b)", "isCorrect": true },
+      { "text": "Neither a) nor b)", "isCorrect": false }
+    ]
+  },
+  {
+    "question": "Which of the following is NOT a valid JavaScript data type?",
+    "answers": [
+      { "text": "number", "isCorrect": false },
+      { "text": "string", "isCorrect": false },
+      { "text": "boolean", "isCorrect": false },
+      { "text": "integer", "isCorrect": true } 
+    ]
+  },
+  {
+    "question": "What does the `===` operator check for in JavaScript?",
+    "answers": [
+      { "text": "Equality in value and type", "isCorrect": true },
+      { "text": "Equality in value only", "isCorrect": false },
+      { "text": "Inequality", "isCorrect": false },
+      { "text": "Greater than or equal to", "isCorrect": false }
+    ]
   }
 ]

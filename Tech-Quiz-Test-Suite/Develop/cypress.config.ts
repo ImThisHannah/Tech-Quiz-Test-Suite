@@ -2,6 +2,7 @@ import { defineConfig } from 'cypress';
 import customViteConfig from './vite.config';
 
 export default defineConfig({
+  projectId: "d7287b",
   component: {
     devServer: {
       framework: 'react',
